@@ -25,22 +25,5 @@
      "innerColor": [241,157,0]
      "favoredReligion": "Cristianity",
      "uniqueName": "Agnalius",
-     "cities": "def on_unit_captured(capturing_player, captured_unit):
-    researched_techs = capturing_player.researched_technologies
-
-   
-    if "Advanced Ballistics" in researched_techs:
-        new_unit_type = "Modern Armor"
-    elif "Gunpowder" in researched_techs:
-        new_unit_type = "Musketman"
-    elif "Animal Husbandry" in researched_techs:
-        new_unit_type = "Horseman"
-    else:
-        new_unit_type = "Warrior"  
-
-    
-    captured_unit.delete()
-
-    
-    capturing_player.create_unit(new_unit_type, captured_unit.position)",	}
-]
+     "cities": ["Avlaga","Nubar","Gid","Nagidi","Rajar","Sans","Pitek","Silverlend","Sansacia",]
+		
